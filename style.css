@@ -43,7 +43,6 @@ header {
 .container {
   width: 80%;
   /* can't be bigger than a 1000 pixels */
-
   max-width: 1000px;
   /* margin 0 auto centers text */
   margin: 0 auto;
@@ -52,10 +51,10 @@ header {
 section {
   float: left;
   width: 70%;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
-aside {
+.one {
   float: right;
   width: 25%;
 }
