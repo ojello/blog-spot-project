@@ -1,5 +1,3 @@
-# fantastic-journey
+#blog-spot project
 
-#Here we will be doing projects of all sorts relating to CSS, JS, HTML
-
-#trying out this commentary
+#simple blogspot design
