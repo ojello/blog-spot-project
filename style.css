@@ -1,18 +1,22 @@
 body {
-  background-color: black;
+  background: linear-gradient(pink, #fae8e0);
+
   color: white;
   font-size: 20px;
   /* always have margin and padding to 0 */
   margin: 0;
   padding: 0;
 }
+
 p {
-  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Londrina Outline", cursive;
+  font-family: "Roboto", sans-serif;
+  /* font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif; */
   margin-top: 0px;
   margin-bottom: 15px;
   padding-top: 10px;
-  color: lightblue;
-  font-size: 15px;
+  color: white;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -24,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 0px;
   font-family: "Roboto", sans-serif;
 }
@@ -34,7 +38,7 @@ div {
 }
 
 header {
-  background-color: #326273;
+  background: #d097a2;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -63,7 +67,8 @@ section {
 }
 
 footer {
-  background-color: grey;
+  background-color: #bedbd2;
+  color: white;
   clear: both;
   padding: 30px 0;
   text-align: center;
