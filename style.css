@@ -11,9 +11,11 @@ p {
   line-height: 1.4;
 }
 
-h3 {
-  font-size: 40px;
-  color: greenyellow;
+h1 {
+  font-size: 70px;
+  color: white;
+  margin: 0px;
+  text-align: center;
 }
 
 div {
@@ -29,5 +31,8 @@ header {
 
 .container {
   width: 70%;
+  /* can't be bigger than a 1000 pixels */
+  max-width: 1000px;
+  /* margin 0 auto centers text */
   margin: 0 auto;
 }
