@@ -1,7 +1,10 @@
 body {
-  background-color: plum;
+  background-color: black;
   color: white;
   font-size: 20px;
+  /* always have margin and padding to 0 */
+  margin: 0;
+  padding: 0;
 }
 p {
   margin-top: 0px;
@@ -12,9 +15,9 @@ p {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 40px;
   color: white;
-  margin: 0px;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -24,14 +27,18 @@ div {
 
 header {
   background-color: #326273;
+  margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
+  color: white;
+  text-transform: uppercase;
 }
 
 .container {
-  width: 70%;
+  width: 80%;
   /* can't be bigger than a 1000 pixels */
+
   max-width: 1000px;
   /* margin 0 auto centers text */
   margin: 0 auto;
