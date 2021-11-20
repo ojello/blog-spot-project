@@ -11,26 +11,30 @@ body {
 p {
   font-family: "Londrina Outline", cursive;
   font-family: "Roboto", sans-serif;
-  /* font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif; */
+  font-weight: 900;
   margin-top: 0px;
   margin-bottom: 15px;
   padding-top: 10px;
-  color: white;
+  color: whitesmoke;
   font-size: 16px;
   line-height: 1.4;
 }
 
 h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   color: white;
   margin-top: 0px;
+  text-shadow: -1px -1px 0 #65726e, 1px -1px 0 #65726e, -1px 1px 0 #65726e,
+    1px 1px 0 #65726e;
 }
 
 h2 {
   font-size: 30px;
   margin-bottom: 0px;
   font-family: "Roboto", sans-serif;
+  text-shadow: -1px -1px 0 #65726e, 1px -1px 0 #65726e, -1px 1px 0 #65726e,
+    1px 1px 0 #65726e;
 }
 
 div {
@@ -67,6 +71,8 @@ section {
 }
 
 footer {
+  text-shadow: -1px -1px 0 #65726e, 1px -1px 0 #65726e, -1px 1px 0 #65726e,
+    1px 1px 0 #65726e;
   background-color: #bedbd2;
   color: white;
   clear: both;
