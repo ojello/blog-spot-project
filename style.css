@@ -15,7 +15,7 @@ p {
   margin-top: 0px;
   margin-bottom: 15px;
   padding-top: 10px;
-  color: whitesmoke;
+  color: grey;
   font-size: 16px;
   line-height: 1.4;
 }
@@ -25,16 +25,14 @@ h1 {
   font-size: 50px;
   color: white;
   margin-top: 0px;
-  text-shadow: -1px -1px 0 #65726e, 1px -1px 0 #65726e, -1px 1px 0 #65726e,
-    1px 1px 0 #65726e;
+  text-shadow: 2px 2px #888686;
 }
 
 h2 {
   font-size: 30px;
   margin-bottom: 0px;
   font-family: "Roboto", sans-serif;
-  text-shadow: -1px -1px 0 #65726e, 1px -1px 0 #65726e, -1px 1px 0 #65726e,
-    1px 1px 0 #65726e;
+  text-shadow: 2px 2px #9f9a9a;
 }
 
 div {
@@ -44,7 +42,7 @@ div {
 header {
   /* background: #bedbd2cc; */
   background: #d097a2;
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 50px;
   text-align: center;
   color: white;
@@ -72,11 +70,13 @@ section {
 }
 
 footer {
-  text-shadow: -1px -1px 0 #65726e, 1px -1px 0 #65726e, -1px 1px 0 #65726e,
-    1px 1px 0 #65726e;
+  text-shadow: 2px 2px #9f9a9a;
   background-color: #cbe9df;
-  color: white;
   clear: both;
   padding: 30px 0;
   text-align: center;
+}
+
+.footer {
+  color: white;
 }
